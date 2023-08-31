@@ -1,0 +1,28 @@
+body{
+    background-image:linear-gradient(to right, black, darkred );
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#resetBtn{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#increaseBtn{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#resetBtn2{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#increaseBtn2{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
