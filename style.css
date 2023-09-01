@@ -1,28 +1,74 @@
 body{
-    background-image:linear-gradient(to right, black, darkred );
+    background-image:linear-gradient(to right, black, darkred, black);
     color: white;
     text-align: center;
-    display: block;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #resetBtn{
-    font-size: 25px;
+    font-size: 35px;
     font-family:'Times New Roman', Times, serif;
 }
 
 #increaseBtn{
-    font-size: 25px;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#decreaseBtn{
+    font-size: 35px;
     font-family:'Times New Roman', Times, serif;
 }
 
 #resetBtn2{
-    font-size: 25px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, se
 }
 
 #increaseBtn2{
-    font-size: 25px;
+    font-size: 35px;
     font-family:'Times New Roman', Times, serif;
+}
+
+#decreaseBtn2{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.team{
+    display: inline-block;
+    padding: 50px;
+}
+
+#counter{
+    font-size: 60px;
+}
+
+#counter2{
+    font-size: 60px;
+}
+
+#demo{
+    font-size: 40px
+}
+
+#demo2{
+    font-size: 40px
+}
+
+#firstteam{
+    font-size: 40px;
+}
+
+#secondteam{
+    font-size: 40px;
+}
+
+#demo{
+    font-size: 40px;
+}
+
+#demo2{
+    font-size: 40px;
 }

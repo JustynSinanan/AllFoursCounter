@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>All Fours Counter </title>
+    <title>All Fours Scoreboard</title>
 </head>
 <body>
-    <h3>ALL FOURS COUNTER</h3>
-    <label id="counter">0</label>
+    <h3>ALL FOURS SCOREBOARD</h3>
+    <div class="team">
+        <div>
+            <label id="firstteam">Team 1:</label>
+            <input type="text" id="team1input">
+            <button type="submit" id="clickme">Sumbit</button>
+        </div>   
+        <div>
+            <hr>
+            <label id="counter">0</label>
+            <br>
+            <button id="decreaseBtn">-</button>
+            <button id="resetBtn">reset</button>
+            <button id="increaseBtn">+</button>
+            <hr>
+            <p id="demo">[Submit Names Above]</p>
+        </div>
+    </div>
+    <div class="team">
+        <div>
+            <label id="secondteam">Team 2:</label>
+            <input type="text" id="team2input">
+            <button type="submit" id="clickme2">Sumbit</button>
+        </div>
+        <div>
+            <hr>
+            <label id="counter2">0</label>
+            <br>
+            <button id="decreaseBtn2">-</button>
+            <button id="resetBtn2">reset</button>
+            <button id="increaseBtn2">+</button>
+            <hr>
+            <p id="demo2">[Submit Names Above]</p>
+        </div>
+    </div>
     <br>
-    <button id="resetBtn">reset</button>
-    <button id="increaseBtn">increase</button>
-    <br>
-    <br>
-    <br>
-    <label id="counter2">0</label>
-    <br>
-    <button id="resetBtn2">reset</button>
-    <button id="increaseBtn2">increase</button>
     <script src="index.js"></script>
 </body>
 </html>
